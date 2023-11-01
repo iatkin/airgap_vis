@@ -187,7 +187,7 @@ If QGIS was installed from the repository, pyproj will already be installed. The
 1. Install cmake and lfortran e.g. `pkg install cmake lfortran`.
 2. Create a symbolic link from /usr/local/bin/gfortran12 to /usr/local/bin/gfortran, `ln -s /usr/local/bin/gfortran12 /usr/local/bin/gfortran`.
 3. Create a symbolic link from /usr/local/bin/python3.9 to /usr/local/bin/python3, `ln -s /usr/local/bin/python3.9 /usr/local/bin/python3`.
-4. Install the required packages with `pip install laspy pillow==9.5.0 scipy --target=$HOME/.local/share/QGIS/QGIS3/profiles/default/python`. This will also installed a copy of numpy.
+4. Install the required packages with `pip install laspy pillow==9.5.0 scipy --target=$HOME/.local/share/QGIS/QGIS3/profiles/default/python`. This will also install numpy into profile directory due to it being a dependency of laspy and scipy.
 
 #### OpenBSD
 Not currently tested
