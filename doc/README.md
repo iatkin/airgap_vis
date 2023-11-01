@@ -17,7 +17,7 @@ In places where "east to west" and "west to east" images are referenced, this is
 
 3. Orientation Display - Swaps between the upstream and downstream views of the location. Upstream and downstream is determined using a combination of the `initialOrientation` and `upstreamDirection` options.
 
-4. Data Update - The timestamp of the currently used data along. Whether data is considered recent (green) or out of date (red) is controlled with the `staleData` option.
+4. Data Update - The timestamp of the air gap or gage data being used. Whether data is considered recent (green) or out of date (red) is controlled with the `staleData` option.
 
 ### Requirements
 There are no external Javascript dependencies.
