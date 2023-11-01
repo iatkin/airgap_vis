@@ -63,8 +63,8 @@ Paths may be relative or absolute.
 |Option|Values|Default|Required|Description|
 |------|------|-------|--------|-----------|
 |baseHeight|float||**Required**|The height *in the point cloud* for the point that the air gap data is relative to. For example, for the Crescent City Air Gap, this point is the western edge of the navigation channel.|
-|refreshInterval|integer milliseconds|6 * 60 * 1000|The amount of time to wait before reloading air gap data|
-|staleData|integer milliseconds|30 * 60 * 1000|The amount of time that must pass before air gap data is considered out of date. Data may become out of date if the visualization is not in the foreground.|
+|refreshInterval|integer milliseconds|6 * 60 * 1000|*Optional*|The amount of time to wait before reloading air gap data|
+|staleData|integer milliseconds|30 * 60 * 1000|*Optional*|The amount of time that must pass before air gap data is considered out of date. Data may become out of date if the visualization is not in the foreground.|
 |stationID|integer||**Required**|The station ID to use. Must be a station with air gap data.|
 
 #### WaterGageVisualization
