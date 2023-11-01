@@ -306,7 +306,7 @@
           <item>
            <widget class="QLineEdit" name="contourLineEdit">
             <property name="text">
-             <string>/tmp/c.json</string>
+             <string/>
             </property>
            </widget>
           </item>
@@ -334,7 +334,7 @@
              <bool>true</bool>
             </property>
             <property name="text">
-             <string>/tmp/d.json</string>
+             <string/>
             </property>
             <property name="frame">
              <bool>true</bool>
@@ -365,7 +365,7 @@
           <item>
            <widget class="QLineEdit" name="westEastBackgroundLineEdit">
             <property name="text">
-             <string>/tmp/b_we.png</string>
+             <string/>
             </property>
            </widget>
           </item>
@@ -390,7 +390,7 @@
           <item>
            <widget class="QLineEdit" name="eastWestBackgroundLineEdit">
             <property name="text">
-             <string>/tmp/b_ew.png</string>
+             <string/>
             </property>
            </widget>
           </item>
