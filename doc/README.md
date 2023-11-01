@@ -179,7 +179,7 @@ Notes on installing
 
 - Other distributions have not been tested.
 
-#### FreeBSD
+#### FreeBSD 13.2
 Note: LAZ files are not currently supported on FreeBSD.
 
 If QGIS was installed from the repository, pyproj will already be installed. The version of pillow that is included as a QGIS dependency is version 10. The version of scipy has a bug that causes QGIS to crash when enabling the plugin. Laspy also needs to be installed.
