@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Air Gap Visualization Demo</title>
+    </head>
+    <body>
+        <div id="airgap_hpl"></div>
+        <script type="module">
+            import {AirGapVisualization} from "./airgap.js"
+
+            window.visualization = new AirGapVisualization("airgap_hpl", {
+                "baseHeight": 44.99,
+                "bathymetry": "depth.json",
+                "contour": "contour.json",
+                "disableControls": false,
+                "images": {
+                    "east_west": "hpl_ew.png",
+                    "west_east": "hpl_we.png"
+                },
+                "initialOrientation": "down",
+                "markers": [613, 293],
+                "padding": {
+                    "left": 30,
+                    "bottom": 10,
+                    "right": 30
+                },
+                "refreshInterval": 6 * 60 * 1000,
+                "staleData": 30 * 60 * 1000,
+                "stationID": 8762002,
+                "upstreamDirection": "east_west"
+            })
+        </script>
+    </body>
+</html>
