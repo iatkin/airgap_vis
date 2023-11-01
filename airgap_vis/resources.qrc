@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/airgap_vis" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
