@@ -26,13 +26,13 @@ The visualization itself requires three files, a contour file and two background
 
 ### Usage
 
-`<div id="elementID"></div>`
-`<script type="module">`
-`    import {AirGapVisualization} from "./airgap.js"`
-` `
-`    var options = { ... }`
-`    var visualizationID = "elementID"`
-`    var visualization = new AirGapVisualization(visualizationID, options)`
+`<div id="elementID"></div>`  
+`<script type="module">`  
+`    import {AirGapVisualization} from "./airgap.js"`  
+` `  
+`    var options = { ... }`  
+`    var visualizationID = "elementID"`  
+`    var visualization = new AirGapVisualization(visualizationID, options)`  
 `</script>`
 
 ### Options
